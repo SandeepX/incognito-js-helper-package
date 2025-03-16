@@ -1,0 +1,15 @@
+{
+  "name": "incognito-helper",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["uppercase", "lowercase", "text", "conversion", "string", "unicode", "words", "count"],
+  "author": "Sandeep pant",
+  "license": "MIT",
+  "description": "A simple and flexible package that provides various string utilities including converting strings to uppercase, lowercase, and counting words.",
+  "publishConfig": {
+    "access": "public"
+  }
+}
