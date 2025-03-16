@@ -1,5 +1,5 @@
 {
-  "name": "incognito-helper",
+  "name": "incognito-js-helper",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {

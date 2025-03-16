@@ -6,14 +6,14 @@ A **lightweight and powerful** JavaScript utility library that provides over **5
 
 Install via **npm**:
 ```bash
-npm install incognito-helper
+npm install incognito-js-helper
 ```
 
 ## 🚀 Usage
 
 Import the package in your JavaScript project:
 ```javascript
-const utils = require('incognito-helper');
+const utils = require('incognito-js-helper');
 ```
 
 ---
