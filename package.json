@@ -1,6 +1,6 @@
 {
   "name": "incognito-js-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,10 @@
   "author": "Sandeep pant",
   "license": "MIT",
   "description": "A simple and flexible package that provides various string utilities including converting strings to uppercase, lowercase, and counting words.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandeepX/incognito-js-helper-package"
+  },
   "publishConfig": {
     "access": "public"
   }

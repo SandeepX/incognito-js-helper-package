@@ -105,6 +105,25 @@ function addElement(arr, element, index = arr.length) {
     return arr;
 }
 
+/**
+ * Compares two arrays and returns the elements that were removed and added.
+ *
+ * @param {Array} oldArray - The original array.
+ * @param {Array} newArray - The updated array.
+ * @returns {Object} - An object containing `removed` and `added` elements.
+ * @throws {TypeError} - If either argument is not an array.
+ */
+function getArrayChanges(oldArray, newArray) {
+    if (!Array.isArray(oldArray) || !Array.isArray(newArray)) {
+        throw new TypeError('Both arguments must be arrays');
+    }
+
+    const removed = oldArray.filter(item => !newArray.includes(item));
+    const added = newArray.filter(item => !oldArray.includes(item));
+
+    return { removed, added };
+}
+
 module.exports = {
     toUpperCase,
     toLowerCase,

@@ -222,6 +222,19 @@ console.log(arrayUtils.addElement(arr, 6)); // Adds 6 at the end
 
 ```
 
+### 1️⃣1️⃣ `getArrayChanges(oldArray, newArray)`
+Compares two arrays and returns the elements that were removed and added.
+
+```javascript
+let a = [1, 2, 3];
+let b = [1, 4, 5];
+
+console.log(arrayUtils.getArrayChanges(a, b));
+// Output: { removed: [2, 3], added: [4, 5] }
+
+```
+
+
 ---
 
 ## 🏆 **Full List of Functions**
@@ -258,6 +271,7 @@ console.log(arrayUtils.addElement(arr, 6)); // Adds 6 at the end
 - `sortAlphabetic`
 - `randomElement`
 - `addElement`
+- `getArrayChanges`
 
 ---
 
